@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="section.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="section.html">Section</a>
+    </nav>    
+    <div class="container">
+        <div class="main-div">
+            <h2> Check Palindrome</h2>
+            <label for="inputString">Enter a string:</label>
+            <input type="text" id="inputString" placeholder="Enter a string...">
+            <button onclick="checkPalindrome()">Check</button>
+            <div id="result"></div>
+
+        </div>
+        <div class="main-div">
+            <h2>Check Minimum and Maximum Number</h2>
+            <label for="numbers">Enter numbers separated by commas:</label>
+            <input type="text" id="numbers" placeholder="Enter numbers...">
+            <button onclick="findMinMax()">Find Min/Max</button>
+            <div id="result2"></div>
+        </div>
+
+        <div class="main-div">
+            <h2>Check Missing Number Identification</h2>
+            <label for="numbers">Enter numbers separated by commas:</label>
+            <input type="text" id="numbers3" placeholder="Enter numbers...">
+            <button onclick="findMissingNumber()">Find Missing Number</button>
+            <div id="result3"></div>
+        </div>
+       </div>
+
+    </div>
+    
+    
+    
+
+    <script src="section.js"></script>
+</body>
+</html>
